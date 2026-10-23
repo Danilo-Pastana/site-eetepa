@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #263445;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #17365d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 0;
+    color: #10684f;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #53d6a2;
+}
+
+section {
+    padding: 50px 8%;
+}
+
+h1,
+h2,
+h3 {
+    color: #17365d;
+}
+
+#inicio {
+    background-color: #eaf1f8;
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 36px;
+}
+
+.destaque {
+    color: #16866b;
+    font-weight: bold;
+}
+
+.imagem-escola {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto 0;
+    border-radius: 12px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #16866b;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background-color: #10684f;
+}
+
+#sobre {
+    background-color: white;
+}
+
+#cursos {
+    background-color: #f5f7fa;
+}
+
+.curso {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #dce3eb;
+}
+
+
+.curso:hover {
+    background-color: #eaf1f8;
+}
+
+.aviso {
+    color: #596779;
+    font-size: 13px;
+    font-style: italic;
+}
+
+#contato {
+    background-color: white;
+}
+
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        padding: 35px 6%;
+    }
+
+    #inicio h1 {
+        font-size: 28px;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+}
